@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "re",
       "schematics": {
         "@schematics/angular:component": {
           "style": "sass"
@@ -24,10 +24,11 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/Web.config"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/assets/scss/styles.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true
