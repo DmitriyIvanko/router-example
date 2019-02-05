@@ -1,18 +1,16 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SignInComponent } from './sign-in.component';
-import { RouterModule } from '@angular/router'; // for [routerLink];
+import { NgModule } from '@angular/core';
 
 import { LayoutRoutingModule } from './sign-in-routing.module';
+import { SignInComponent } from './sign-in.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule,
-    LayoutRoutingModule,
-  ],
   declarations: [
     SignInComponent,
+  ],
+  imports: [
+    CommonModule,
+    LayoutRoutingModule,
   ],
 })
 export class SignInModule { }

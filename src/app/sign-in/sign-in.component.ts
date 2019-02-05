@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 're-sign-in',
+  styleUrls: ['./sign-in.component.scss'],
   templateUrl: './sign-in.component.html',
-  styleUrls: ['./sign-in.component.scss']
 })
 export class SignInComponent {
 }

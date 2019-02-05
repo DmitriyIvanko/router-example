@@ -1,4 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {
+  async,
+  ComponentFixture,
+  TestBed,
+} from '@angular/core/testing';
 
 import { SignInComponent } from './sign-in.component';
 
@@ -8,7 +12,9 @@ describe('SignInComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SignInComponent ]
+      declarations: [
+        SignInComponent,
+      ],
     })
     .compileComponents();
   }));

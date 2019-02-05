@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import {
-  Routes,
   RouterModule,
+  Routes,
 } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -25,11 +25,15 @@ const routes: Routes = [
     ],
     component: AppComponent,
     path: '',
-  }
+  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [
+    RouterModule,
+  ],
+  imports: [
+    RouterModule.forRoot(routes),
+  ],
 })
 export class AppRoutingModule { }
